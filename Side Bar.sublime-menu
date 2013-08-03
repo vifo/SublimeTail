@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "Tail",
+        "children": [
+            {
+                "caption": "Tail File In New View",
+                "command": "tail_tail_file_in_new_view",
+                "args": {
+                    "caller": "sidebar"
+                }
+            }
+        ]
+    }
+]

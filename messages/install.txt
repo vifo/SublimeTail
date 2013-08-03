@@ -1,0 +1,18 @@
+Tail for Sublime Text
+=====================
+
+Version: 0.1.0
+
+Thanks for installing Tail! Below are some quick notes to get you started.
+Please refer to:
+
+    https://github.com/vifo/SublimeTail
+
+for full documentation.
+
+Quick start
+-----------
+
+TODO: Insert quick start.
+
+Thank You.

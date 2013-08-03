@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "Tail: New View",
+        "command": "tail_new_view"
+    },
+    {
+        "caption": "Tail: Tail File In New View",
+        "command": "tail_tail_file_in_new_view",
+        "args": {
+            "caller": "view"
+        }
+    },
+    {
+        "caption": "Tail: Add File To Current View",
+        "command": "tail_view_add_file"
+    },
+    {
+        "caption": "Tail: Clear View",
+        "command": "tail_view_clear"
+    },
+    {
+        "caption": "Tail: Remove File From Current View",
+        "command": "tail_view_remove_file"
+    },
+    {
+        "caption": "Tail: Restart Tailing",
+        "command": "tail_view_restart"
+    },
+    {
+        "caption": "Tail: Start Tailing",
+        "command": "tail_view_start"
+    },
+    {
+        "caption": "Tail: Stop Tailing",
+        "command": "tail_view_stop"
+    }
+]

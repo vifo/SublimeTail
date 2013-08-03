@@ -1,0 +1,9 @@
+*.pyc
+*.sublime-workspace
+.*sw*
+.coverage
+COMMIT
+build/
+htmlcov/
+nohup.out
+packages/tail/docs/_build
