@@ -9,8 +9,15 @@
     // ------------------------------------------------------------------------
     // log_level
     //
-    // Log level for Tail operations. Set to 1 to enable informational
-    // messages and to 2 for full debugging. Defaults to 0, so only warnings
-    // and errors will be displayed on the Sublime Text console.
-    "log_level": "trace"
+    // Log level for Tail operations. All messages will be displayed on the
+    // Sublime Text console. Following levels are available:
+    //
+    //   0, "error"             Errors.
+    //   1, "warn", "warning"   Warnings.
+    //   2, "notice"            Notices. This is the default logging level.
+    //   3, "info"              Informational messages.
+    //   4, "debug"             Debugging messages.
+    //   5, "trace"             Tracing. Using this level might noticeably
+    //                          slow down plugin.
+    "log_level": "notice"
 }

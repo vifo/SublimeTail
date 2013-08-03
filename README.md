@@ -4,7 +4,7 @@
 
 [Tail](http://goo.gl/Pvbmrz) files in [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime Text 3](http://www.sublimetext.com/3).
 
-**Attention**: This plugin is currently in development. Documentation might not be up-to-date, as well as functionality missing or things simply not working as intended or expected.
+**Attention**: This plugin is currently in development. Documentation might not be up-to-date, as well as functionality missing or things simply not working as intended or expected. Also for now, you'll have to install this plugin manually via git or from ZIP.
 
 #### Table of contents
 
@@ -32,7 +32,7 @@ Read on for detailed installation, usage, configuration and customization instru
 
 ## Installation
 
-* **With Package Control:** The easiest way to install Tail is through [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you're not using it yet, get it. Seriously.
+* **With Package Control:** The easiest way to install *Tail* is through [Sublime Package Control](http://wbond.net/sublime_packages/package_control). If you're not using it yet, get it. Seriously.
 
   Once you have installed Package Control, restart Sublime Text and bring up the Command Palette (press `Control+Shift+P` on Linux/Windows, `Command+Shift+P` on OS X, or select `Tools->Command Palette...` from menu). Select *Package Control: Install Package*, wait till latest package list has been fetched, then select *Tail* from the list of available packages.
 
@@ -42,7 +42,7 @@ Read on for detailed installation, usage, configuration and customization instru
 
 The advantage of using either Package Control or git is, that the plugin will be automatically kept up-to-date.
 
-* **From ZIP:** Download the latest version [as a ZIP archive](https://github.com/vifo/SublimeTail/archive/master.zip) and copy the directory ``SublimeTail-master`` from the archive to your Sublime Text *Packages* directory. Rename directory ``SublimeTail-master`` to ``Tail``.
+* **From ZIP:** Download the latest version [as a ZIP archive](https://github.com/vifo/SublimeTail/archive/devel.zip) and copy the directory `SublimeTail-devel` from the archive to your Sublime Text *Packages* directory. Rename directory `SublimeTail-devel` to `Tail`.
 
 The *Packages* directory locations are listed below. If using Sublime Text 2, be sure to replace `3` with `2` in directory names below.  Alternatively, selecting `Preferences->Browse Packages...` from Sublime Text menu will get you to the *Packages* directory also.
 
@@ -76,13 +76,14 @@ None by default.
 
 During normal operation, *Tail* will emit warnings and errors to the Sublime Text console (open with ``Control+` `` or select `View->Show Console` from menu). In order to enable additional diagnostic messages, adjust user setting "log_level" as follows:
 
-**TODO**: This section needs to be adjusted. Log levels are now stringy.
-
-* 0 == Warnings and error messages only. This is the default.
-
-* 1 == Print system commands.
-
-* 2 == Full debugging. In addition to the above, print where Tail.
+| Level                     | Description                                                    |
+| ------------------------- | -------------------------------------------------------------- |
+| `0`, `error`              | Errors.                                                        |
+| `1`, `warn`, `warning`    | Warnings.                                                      |
+| `2`, `notice`             | Notices. This is the default logging level.                    |
+| `3`, `info`               | Informational messages.                                        |
+| `4`, `debug`              | Debugging messages.                                            |
+| `5`, `trace`              | Tracing. Using this level might noticeably slow down plugin.   |
 
 <a name="reporting-bugs" />
 
@@ -129,6 +130,6 @@ Thank You.
 
 ## Changes
 
-Only latest changes are listed here. Refer to [full change log](https://github.com/vifo/SublimeTail/blob/master/CHANGES.markdown) for all changes.
+Only latest changes are listed here. Refer to [full change log](https://github.com/vifo/SublimeTail/blob/devel/CHANGES.markdown) for all changes.
 
 None yet. Plugin not released.
