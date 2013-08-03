@@ -4,7 +4,7 @@
 
 [Tail](http://goo.gl/Pvbmrz) files in [Sublime Text 2](http://www.sublimetext.com/2) and [Sublime Text 3](http://www.sublimetext.com/3).
 
-**Attention**: This plugin is currently in development. Documentation might not be up-to-date, as well as functionality missing or things simply not working as intended or expected. Also for now, you'll have to install this plugin manually via git or from ZIP.
+**Attention**: This plugin is considered to be alpha quality and currently under development. Documentation might not be up-to-date, as well as functionality missing or things simply not working as intended or expected. Also for now, you'll have to install this plugin manually via git or from ZIP. You have been warned.
 
 #### Table of contents
 
