@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function, unicode_literals
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import os
 import sys
 import threading
 import time
-from ..sublime_plugin_lib import compat
+
 from . import plugin
+from ..sublime_plugin_lib import compat
 
 # Registered Tail sources.
 TAIL_SOURCES = {}
@@ -152,7 +155,7 @@ class TailSourceUpdater(threading.Thread):
         """
 
         try:
-            with open(self.source.filepath) as fh:
+            with open(self.source.filepath, encoding='utf-8') as fh:
                 # Seek to end of file and wait for new lines.
                 fh.seek(0, 2)
 
@@ -162,7 +165,8 @@ class TailSourceUpdater(threading.Thread):
                         break
 
                     if line:
-                        self.source.add_line(TailSourceLine(self.source, line.rstrip('\r\n')))
+                        self.source.add_line(TailSourceLine(
+                            self.source, line.rstrip('\r\n')))
                     else:
                         # self.signal.wait(0.2)
                         self.stop_signal.wait(0.2)
