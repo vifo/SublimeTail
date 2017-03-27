@@ -89,7 +89,7 @@ During normal operation, *Tail* will emit warnings and errors to the Sublime Tex
 
 ## Reporting bugs
 
-In order to make bug hunting easier, please ensure, that you always run the *latest* version of *Tail*. Apart from this, please ensure, that you've set *Tail* log level to maximum (`"log_level": "trace"` in user settings), in order to get all debugging information possible. Also please include the following information, when submitting an issue:
+In order to make bug hunting easier, please ensure, that you always run the *latest* version of *Tail*. Apart from this, please ensure, that you've set *Tail* log level to maximum (`"log_level": "trace"` in user settings), in order to get all debugging information possible. Also, please include the following information, when submitting an issue:
 
 * Operating system name (i.e. "Windows XP SP3", **not** "Windows")
 
